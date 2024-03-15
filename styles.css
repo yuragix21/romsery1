@@ -1,9 +1,12 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 
-
+body{
+    background-image: url('img/sdsd.jpg');
+}
 
 /* container */
 .container {
