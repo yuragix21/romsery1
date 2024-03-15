@@ -1,3 +1,7 @@
+window.addEventListener('load', function() {
+  alert('PRESIONA LAS LETRAS DE TÚ NOMBRE BB');
+});
+
 document.addEventListener('DOMContentLoaded', function() {
     // Obtener todos los botones
     var botones = document.querySelectorAll('.boton');
