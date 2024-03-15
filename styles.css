@@ -3,9 +3,7 @@
     margin: 0;
 }
 
-html, body {
-    height: 100%; /* Asegurar que el body y el HTML ocupen toda la altura disponible */
-}
+
 
 /* container */
 .container {
