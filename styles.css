@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%; /* Asegurar que el body y el HTML ocupen toda la altura disponible */
+}
+
+/* container */
+.container {
+    width: calc(100% - 20px); /* 20px = 10px de borde en cada lado */
+    height: 100%;
+    border: 10px solid rgb(23, 202, 23);
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+/* content   */
+.content {
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Disposición vertical */
+    align-items: center; /* Centrar horizontalmente */
+    gap: 10px; /* Espacio entre los botones */
+}
+
+/* SQUARES */
+.r{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(128, 49, 75);
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    
+    
+}
+
+.o{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(80, 27, 224);
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}       
+
+.s{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(218, 23, 143);
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.m{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(155, 214, 18);
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.e{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.r{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(30, 199, 72);
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.y{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(212, 64, 19);
+    display: flex; /* Usar flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+
+button:active{
+    border-style: none;
+}
+
+
+
+/* Medias querys
