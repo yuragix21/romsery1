@@ -9,9 +9,9 @@ html, body {
 
 /* container */
 .container {
-    width: calc(100% - 20px); /* 20px = 10px de borde en cada lado */
+    width: 100%; /* 20px = 10px de borde en cada lado */
     height: 100%;
-    border: 10px solid rgb(23, 202, 23);
+   
     display: flex; /* Usar flexbox */
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente */
